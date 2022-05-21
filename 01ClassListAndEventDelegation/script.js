@@ -1,6 +1,7 @@
 const btns = document.querySelectorAll('button'),
     wrapper = document.querySelector('.btn-block');
 
+
 // console.log(btns[0].classList); // show all classes
 // console.log(btns[0].classList.length); // show all classes length
 // console.log(btns[0].classList.item(0)); // show first class
@@ -34,3 +35,7 @@ wrapper.addEventListener('click', (event) => {
         console.log('This is a button');
     }
 })
+
+const btn = document.createElement('button');
+btn.classList.add('green');
+wrapper.append(btn);
