@@ -32,10 +32,17 @@ btns[0].addEventListener('click', () => {
 wrapper.addEventListener('click', (event) => {
     // Example 1 - validate button
     if (event.target && event.target.tagName == 'BUTTON') {
-        console.log('This is a button');
+        console.log('This is a button [finded with tagName]');
     }
 })
 
 const btn = document.createElement('button');
 btn.classList.add('green');
 wrapper.append(btn);
+
+wrapper.addEventListener('click', (event) => {
+    // Example 1 - matches
+    if (event.target && event.target.matches('button')) {
+        console.log('This is a button [finded with matches]');
+    }
+})
