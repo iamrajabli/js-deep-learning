@@ -12,10 +12,14 @@ if (btns[0].classList.contains('some')) { // validate being class
 }
 
 btns[0].addEventListener('click', () => {
-    // Example 1
-    if (!btns[1].classList.contains('green')) {
-        btns[1].classList.add('green');
-    } else {
-        btns[1].classList.remove('green');
-    }
+    // Example 1 - long if
+    // if (!btns[1].classList.contains('green')) {
+    //     btns[1].classList.add('green');
+    // } else {
+    //     btns[1].classList.remove('green');
+    // }
+
+    // Example 2 - short if
+    (!btns[1].classList.contains('green')) ?
+    btns[1].classList.add('green'): btns[1].classList.remove('green');
 })
