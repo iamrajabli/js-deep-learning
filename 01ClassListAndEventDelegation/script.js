@@ -20,6 +20,9 @@ btns[0].addEventListener('click', () => {
     // }
 
     // Example 2 - short if
-    (!btns[1].classList.contains('green')) ?
-    btns[1].classList.add('green'): btns[1].classList.remove('green');
+    // (!btns[1].classList.contains('green')) ?
+    // btns[1].classList.add('green'): btns[1].classList.remove('green');
+
+    // Example 3 - with toggle
+    btns[1].classList.toggle('green');
 })
