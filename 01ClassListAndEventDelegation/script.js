@@ -10,3 +10,12 @@ btns[0].classList.toggle('green'); // add or remove class .green
 if (btns[0].classList.contains('some')) { // validate being class
     console.log(true);
 }
+
+btns[0].addEventListener('click', () => {
+    // Example 1
+    if (!btns[1].classList.contains('green')) {
+        btns[1].classList.add('green');
+    } else {
+        btns[1].classList.remove('green');
+    }
+})
