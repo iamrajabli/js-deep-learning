@@ -1,7 +1,7 @@
 ## JS DEEP LEARNING 🦆
 
 ### ClassList and Event Delegation 🚀
-- 🔑 Source: [CODE](./01ClassListAndEventDelegation/)
+- 🔑 Source: [CODE](../01ClassListAndEventDelegation/)
 - 🔍 Documentation:
     - 👁‍🗨 EN:
         - [ClassList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
