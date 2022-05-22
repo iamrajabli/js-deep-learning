@@ -79,7 +79,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
         function updateClock() {
             const t = getTimeRemaining(endtime);
-
             days.innerHTML = getZero(t.days);
             hours.innerHTML = getZero(t.hours);
             minutes.innerHTML = getZero(t.minutes);
