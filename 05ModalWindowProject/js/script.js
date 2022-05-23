@@ -106,7 +106,7 @@ window.addEventListener('DOMContentLoaded', () => {
         modalCloseBtn = document.querySelector('.modal__close'),
         modalTimerId = setTimeout(() => {
             openModal();
-        }, 3000);
+        }, 30000);
 
     function openModal() {
         modal.classList.add('show');
