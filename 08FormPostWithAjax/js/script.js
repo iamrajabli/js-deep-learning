@@ -103,7 +103,6 @@ window.addEventListener('DOMContentLoaded', () => {
     // Modal
     const modalTrigger = document.querySelectorAll('[data-modal]'),
         modal = document.querySelector('.modal'),
-        modalCloseBtn = document.querySelector('.modal__close'),
         modalTimerId = setTimeout(() => { openModal(); }, 3000000);
 
     function openModal() {
@@ -123,10 +122,9 @@ window.addEventListener('DOMContentLoaded', () => {
         btn.addEventListener('click', openModal);
     })
 
-    modalCloseBtn.addEventListener('click', closeModal);
 
     modal.addEventListener('click', (e) => {
-        if (e.target == modal) {
+        if (e.target == modal || e.target.classList.contains('modal__close')) {
             closeModal();
         }
     });
@@ -234,15 +232,50 @@ window.addEventListener('DOMContentLoaded', () => {
             request.addEventListener('load', () => {
                 if (request.status == 200) {
                     console.log(request.response);
-                    statusMessage.innerHTML = message.success;
+                    showThanks(message.success);
                     form.reset();
-                    setTimeout(() => { statusMessage.remove() }, 2000)
                 } else {
-                    statusMessage.innerHTML = message.failure;
+                    showThanks(message.failure);
                 }
             });
 
-            form.append(statusMessage);
+            function showThanks(message) {
+                openModal();
+                const modalDialogPrev = document.querySelector('.modal__dialog');
+                modalDialogPrev.classList.add('hide');
+
+                const modalDialogNew = document.createElement('div');
+                modalDialogNew.classList.add('modal__dialog');
+                modalDialogNew.innerHTML = `
+                <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">${message}</div>
+                </form>
+                </div>
+                `;
+
+                function closeNewModal() {
+                    modalDialogNew.remove();
+                    modalDialogPrev.classList.add('show');
+                    modalDialogPrev.classList.remove('hide');
+                }
+
+                modal.addEventListener('click', (e) => {
+                    if (e.target == modal || e.target.classList.contains('modal__close')) {
+                        closeNewModal()
+                    }
+                });
+
+
+                modal.append(modalDialogNew);
+
+                setTimeout(() => {
+                    closeNewModal();
+                    closeModal();
+                }, 3000)
+            }
+
         });
     }
 });
