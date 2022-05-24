@@ -52,7 +52,8 @@ const req = new Promise((resolve, reject) => {
             price: 2000
         }
 
-        resolve(product);
+        // resolve(product);
+        reject();
 
     }, 2000)
 });
@@ -67,4 +68,8 @@ req.then(product => new Promise((resolve, reject) => {
     return product;
 }).then(product => {
     console.log(product);
-}))
+})).catch(() => {
+    console.error('Произошла ошибка');
+}).finally(() => {
+    console.log('Finally');
+})
