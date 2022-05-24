@@ -89,3 +89,23 @@
   - 🔑 Source: [TEMPLATE](https://drive.google.com/file/d/1-mtd3uM3KwWSbzV47nIrv0W9rqM-NG9u/view?usp=sharing)
 
 <hr>
+
+## JS DEEP LEARNING 🦆
+
+### 09 Promise 🚀 
+- 🔑 Source: [CODE](./09PromiseNotes/)
+- 🔍 Documentation:
+    - 👁‍🗨 EN:
+        - [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+        - [Promise 2](https://javascript.info/promise-basics)
+
+    - 👁‍🗨 RU:
+        - [Promise](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+        - [Promise 2](https://learn.javascript.ru/promise-basics)
+
+    - 👁‍🗨 TR:
+        - [Promise](https://tr.javascript.info/promise-basics)
+        
+    - 👁‍🗨 AZ (in process...)
+
+<hr>
