@@ -90,8 +90,6 @@
 
 <hr>
 
-## JS DEEP LEARNING 🦆
-
 ### 09 Promise 🚀 
 - 🔑 Source: [CODE](./09PromiseNotes/)
 - 🔍 Documentation:
