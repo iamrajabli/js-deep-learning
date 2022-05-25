@@ -22,3 +22,7 @@ console.log('every result:', inputs.every(input => typeof(input) === 'number'));
 const numArr = [1, 2, 3, 4, 5];
 const plus = numArr.reduce((sum, current) => sum + current);
 console.log('+:', plus);
+
+const strArr = ['apple', 'pear', 'orange'];
+const strArrPlus = strArr.reduce((sum, current) => `${sum}, ${current}`);
+console.log(strArrPlus);
