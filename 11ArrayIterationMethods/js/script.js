@@ -26,3 +26,18 @@ console.log('+:', plus);
 const strArr = ['apple', 'pear', 'orange'];
 const strArrPlus = strArr.reduce((sum, current) => `${sum}, ${current}`);
 console.log(strArrPlus);
+
+
+// Object.entries()
+const obj = {
+    Hikmat: 'person',
+    Ali: 'person',
+    dog: 'animal',
+    cat: 'animal'
+}
+
+const newArr = Object.entries(obj)
+    .filter(item => item[1] === 'person')
+    .map(item => item[0]);
+
+console.log(newArr);
