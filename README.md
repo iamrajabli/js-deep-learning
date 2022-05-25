@@ -117,7 +117,7 @@
 <hr>
 
 ### 11 Array Iteration Methods 🚀 
-  - 🔑 Source: [CODE](../11ArrayIterationMethods/)
+  - 🔑 Source: [CODE](./11ArrayIterationMethods/)
   - 🔍 Documentation:
     - 👁‍🗨 EN:
        - [Reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
