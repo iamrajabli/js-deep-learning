@@ -13,5 +13,12 @@ console.log('map: ', result); // map:  [ 'baku', 'netname', 'pragma', 'unibank' 
 
 // some
 const inputs = [12, 'hikmat', 'khnuvd'];
-const inputsResult = inputs.some(input => typeof(input) === 'number');
-console.log('inputsResult:', inputsResult);
+console.log('some result:', inputs.some(input => typeof(input) === 'number'));
+
+// every
+console.log('every result:', inputs.every(input => typeof(input) === 'number'));
+
+// reduce
+const numArr = [1, 2, 3, 4, 5];
+const plus = numArr.reduce((sum, current) => sum + current);
+console.log('+:', plus);
