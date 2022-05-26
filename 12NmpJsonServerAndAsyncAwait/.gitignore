@@ -1,0 +1,7 @@
+    # Untracked files:
+    [...]
+    # Ignore node_modules folder
+    /node_modules
+    # Ignore package-lock file
+    package-lock.json      
+    [...]
