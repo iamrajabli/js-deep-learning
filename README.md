@@ -152,7 +152,7 @@
   ```
 <hr>
 
-  ### Axios Get and Post 🚀 
+  ### 13 Axios Get and Post 🚀 
   - 🔑 Source: [CODE](./13AxiosGetAndPost/)
   - 🔑 Source: [DOCUMENTATION AXIOS](https://github.com/axios/axios)
   - 🔑 Source: [TEMPLATE](https://drive.google.com/file/d/1-mtd3uM3KwWSbzV47nIrv0W9rqM-NG9u/view?usp=sharing)
@@ -163,4 +163,15 @@
   npx json-server db.json
   ```
 
-  <hr>
+<hr>
+
+  ### 14 Slider Project A 🚀 
+  - 🔑 Source: [CODE](./14SliderProjectA/)
+  - 🔑 Source: [TEMPLATE](https://drive.google.com/file/d/1-mtd3uM3KwWSbzV47nIrv0W9rqM-NG9u/view?usp=sharing)
+
+  ```
+  npm i
+  npx json-server db.json
+  ```
+
+<hr>
