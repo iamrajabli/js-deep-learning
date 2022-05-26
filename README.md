@@ -147,6 +147,6 @@
   - 🔑 P.S: OPEN WITH MAMP/APACHE/XAMP SERVER
 
   ```
-  npm i json-server --save-dev
+  npm i
   npx json-server db.json
   ```
