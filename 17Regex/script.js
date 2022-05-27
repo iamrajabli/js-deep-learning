@@ -13,3 +13,6 @@ const pass = prompt('enter password');
 
 // just "."
 console.log(pass.replace(/\./g, "*"));
+
+// all 
+console.log(pass.replace(/./g, "*"));
