@@ -379,7 +379,7 @@ window.addEventListener('DOMContentLoaded', () => {
             slideIndex = dataSlideTo;
             currentIndex();
             dotCurrent()
-            offset = deleteNotDigits(width) * (slides.length - 1)
+            offset = deleteNotDigits(width) * (slideIndex - 1);
             slidesField.style.transform = `translateX(-${offset}px)`;
         })
     })
