@@ -4,18 +4,18 @@
 - 🔑 Source: [CODE](../17Regex/)
 - 🔍 Documentation:
     - 👁‍🗨 EN:
-        - [ClassList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
-        - [Matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
-        - [Event Delegation](https://javascript.info/event-delegation)
+        - [Regular expressions](https://javascript.info/regular-expressions)
+        - [RegExp](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+        - [RegExp generator](https://regex101.com)
+
     - 👁‍🗨 RU:
-        - [ClassList](https://developer.mozilla.org/ru/docs/Web/API/Element/classList)
-        - [Matches](https://developer.mozilla.org/ru/docs/Web/API/Element/matches)
-        - [Делегирование событий 1](https://learn.javascript.ru/event-delegation)
-        - [Делегирование событий 2](https://medium.com/@stasonmars/делегирование-событий-в-javascript-d91cbdd8916a)
+        - [Регулярные выражения](https://learn.javascript.ru/regular-expressions)
+        - [RegExp](https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/RegExp)
+        - [Конструктор регулярных выражений](https://regex101.com)
 
     - 👁‍🗨 TR:
-        - [ClassList](https://www.webcebir.com/174-javascript-classlist-ile-sinif-ekleme-silme-ve-gecis-efekti-dersi.html)
-        - [Etkinlik temsilcisi 1](https://bit.ly/3LFaeAG)
-        - [Etkinlik temsilcisi 2](https://www.webcebir.com/181-javascript-event-delegation-dersi.html)
+        - [Düzensiz ifadeler](https://www.webcebir.com/174-javascript-classlist-ile-sinif-ekleme-silme-ve-gecis-efekti-dersi.html)
+        - [RegExp](https://bit.ly/3LFaeAG)
+        - [RegExp oluşturucusu](https://www.webcebir.com/181-javascript-event-delegation-dersi.html)
         
     - 👁‍🗨 AZ (in process...)

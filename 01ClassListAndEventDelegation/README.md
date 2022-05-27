@@ -7,6 +7,7 @@
         - [ClassList](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
         - [Matches](https://developer.mozilla.org/en-US/docs/Web/API/Element/matches)
         - [Event Delegation](https://javascript.info/event-delegation)
+        
     - 👁‍🗨 RU:
         - [ClassList](https://developer.mozilla.org/ru/docs/Web/API/Element/classList)
         - [Matches](https://developer.mozilla.org/ru/docs/Web/API/Element/matches)

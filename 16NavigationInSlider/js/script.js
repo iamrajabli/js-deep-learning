@@ -343,12 +343,16 @@ window.addEventListener('DOMContentLoaded', () => {
 
     slides.forEach(slide => slide.style.width = width)
 
+    function deleteNotDigits(str) {
+        return +str.replace(/\D/g, '')
+    }
+
     prev.addEventListener('click', () => {
         if (offset == 0) {
-            offset = +width.slice(0, width.length - 2) * (slides.length - 1)
+            offset = deleteNotDigits(width) * (slides.length - 1)
             slideIndex = slides.length;
         } else {
-            offset -= +width.slice(0, width.length - 2);
+            offset -= deleteNotDigits(width);
             slideIndex--;
         }
         currentIndex();
@@ -357,11 +361,11 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
     next.addEventListener('click', () => {
-        if (offset == +width.slice(0, width.length - 2) * (slides.length - 1)) {
+        if (offset == deleteNotDigits(width) * (slides.length - 1)) {
             offset = 0;
             slideIndex = 1;
         } else {
-            offset += +width.slice(0, width.length - 2);
+            offset += deleteNotDigits(width);
             slideIndex++;
         }
         currentIndex();
@@ -375,7 +379,7 @@ window.addEventListener('DOMContentLoaded', () => {
             slideIndex = dataSlideTo;
             currentIndex();
             dotCurrent()
-            offset = +width.slice(0, width.length - 2) * (slideIndex - 1);
+            offset = deleteNotDigits(width) * (slides.length - 1)
             slidesField.style.transform = `translateX(-${offset}px)`;
         })
     })
