@@ -22,3 +22,6 @@
 
 // const ans = prompt('enter px');
 // console.log(ans.match(/\d/g));
+
+const text = 'My name is R1R2';
+console.log(text.match(/\w\d\w\d/));
