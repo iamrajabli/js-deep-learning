@@ -232,7 +232,7 @@
 
 <hr>
 
-### Encapsulation 🚀
+### 19 Encapsulation 🚀
 - 🔑 Source: [CODE](./19Encapsulation/)
 - 🔍 Documentation:
     - 👁‍🗨 EN:
