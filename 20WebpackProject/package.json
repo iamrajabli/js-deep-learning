@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "please-upgrade-node": "^3.2.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
+}
