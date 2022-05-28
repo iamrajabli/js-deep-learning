@@ -1,6 +1,6 @@
 ## JS DEEP LEARNING 🦆
 
-### Webpack Project 🚀 
+### Webpack CommonJS Modules 🚀 
   - 🔑 Source: [CODE](../20WebpackProject/)
   - 🔑 Source: [TEMPLATE](https://drive.google.com/file/d/1-mtd3uM3KwWSbzV47nIrv0W9rqM-NG9u/view?usp=sharing)
 
